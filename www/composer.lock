@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5ff599fe3ae11e80f32110b93883eb3",
-    "content-hash": "080f258774266df44e3e314d0d623d62",
+    "hash": "b6871106bc3c221c66d9ccae600a34c9",
+    "content-hash": "08cef1591754b25833a9ca861ea6f547",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1018,6 +1018,48 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2016-08-29 16:56:02"
+        },
+        {
+            "name": "drupal/config_installer",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_installer",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_installer-8.x-1.3.zip",
+                "reference": null,
+                "shasum": "1507bca7a9f7d5a8ca759b8d717d055629b8f045"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1462466939"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "alexpott",
+                    "homepage": "https://www.drupal.org/user/157725"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/config_installer",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_installer"
+            }
         },
         {
             "name": "drupal/console",
