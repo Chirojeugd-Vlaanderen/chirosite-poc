@@ -25,7 +25,7 @@ options.rootPath = {
 };
 
 options.theme = {
-  name       : 'chiro_zen',
+  name       : 'STARTERKIT',
   root       : options.rootPath.theme,
   components : options.rootPath.theme + 'components/',
   build      : options.rootPath.theme + 'components/asset-builds/',
@@ -118,7 +118,7 @@ options.styleGuide = {
   ],
 
   homepage: 'homepage.md',
-  title: 'chiro_zen Style Guide'
+  title: 'STARTERKIT Style Guide'
 };
 
 // Define the paths to the JS files to lint.
