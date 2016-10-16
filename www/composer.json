@@ -26,7 +26,9 @@
         "drupal/ds": "^2.6",
         "drupal/admin_toolbar": "^1.17",
         "drupal/devel": "1.x-dev",
-        "drupal/field_group": "1.x-dev"
+        "drupal/field_group": "1.x-dev",
+        "drupal/zen": "7.0.0-alpha14",
+        "drupal/components": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",

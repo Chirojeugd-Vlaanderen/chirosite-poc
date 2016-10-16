@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c22199f8be3a5371e6308bfc35c9cd33",
-    "content-hash": "e80bc8ecb3170bd2f54ce1b9d0f3648e",
+    "hash": "4abf1ff6e7e4f413298a382c9b47bf44",
+    "content-hash": "32bfe20cd6a4db6e7eba0759e5c53133",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1123,6 +1123,49 @@
             }
         },
         {
+            "name": "drupal/components",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/components",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
+                "reference": null,
+                "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1461060840"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                }
+            ],
+            "description": "Registers “component libraries” defined in modules and themes with the Twig system",
+            "homepage": "https://www.drupal.org/project/components",
+            "support": {
+                "source": "http://cgit.drupalcode.org/components"
+            }
+        },
+        {
             "name": "drupal/config_installer",
             "version": "1.3.0",
             "source": {
@@ -1770,7 +1813,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha23",
                 "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
             },
             "require": {
@@ -1812,6 +1855,56 @@
             ],
             "support": {
                 "source": "http://cgit.drupalcode.org/layout_plugin"
+            }
+        },
+        {
+            "name": "drupal/zen",
+            "version": "7.0.0-alpha14",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/zen",
+                "reference": "8.x-7.0-alpha14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/zen-8.x-7.0-alpha14.zip",
+                "reference": "8.x-7.0-alpha14",
+                "shasum": "5e9c8f3d4a7c1867173f7219db3791c15b755899"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x": "7.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-7.0-alpha14",
+                    "datestamp": "1464881343"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "KrisBulman",
+                    "homepage": "https://www.drupal.org/user/190735"
+                },
+                {
+                    "name": "echoz",
+                    "homepage": "https://www.drupal.org/user/38665"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/zen",
+            "support": {
+                "source": "http://cgit.drupalcode.org/zen"
             }
         },
         {
