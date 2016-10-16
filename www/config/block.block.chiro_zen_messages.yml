@@ -1,0 +1,22 @@
+uuid: 690ccb0f-2030-48bb-98b2-a548848409b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: OWMiWkPKrGEzUwIvm7pJaxaDkRNks1xiV0VVPSEFcEk
+id: chiro_zen_messages
+theme: chiro_zen
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

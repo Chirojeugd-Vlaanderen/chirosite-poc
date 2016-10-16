@@ -1,0 +1,25 @@
+uuid: 2b011bc9-3a89-4e56-a7ba-d69f7ed66ec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: m0f9Ch-Fp55MtXQ8uaKxOziWqy24Tt1qj56eLuAZ6C4
+id: chiro_zen_branding
+theme: chiro_zen
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

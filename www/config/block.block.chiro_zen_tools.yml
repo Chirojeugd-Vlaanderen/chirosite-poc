@@ -1,0 +1,26 @@
+uuid: 988a0c39-1d3f-4de9-a7a1-e60b39601cbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: tqq_PdZpmV2AGhNTkUjECL0blIaAGSC_GZ-FFve-WgI
+id: chiro_zen_tools
+theme: chiro_zen
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

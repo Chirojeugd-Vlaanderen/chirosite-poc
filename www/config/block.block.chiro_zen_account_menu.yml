@@ -1,0 +1,26 @@
+uuid: e998d8e2-adbc-4386-887b-f5ec53344883
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: KqOp-7Z3WVxg4vlhfFJHw-2m9DhMoWbnNOSQCPYs5J0
+id: chiro_zen_account_menu
+theme: chiro_zen
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

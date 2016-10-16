@@ -1,0 +1,20 @@
+uuid: 1fcbf589-cae8-414a-bf45-b34d7b959d59
+langcode: en
+status: true
+dependencies:
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: GEbxyFZw9cIRdyglcYu-gNwCWgVQ3K9NR1SNbX4Cjj0
+id: chiro_zen_page_title
+theme: chiro_zen
+region: title
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

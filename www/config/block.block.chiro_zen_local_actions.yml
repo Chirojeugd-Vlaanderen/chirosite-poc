@@ -1,0 +1,20 @@
+uuid: 08466fe2-7fad-4020-836a-e6b583a84b6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: sYq20qJgHdwNwT9xhwNRvQVy7yac6k2jQFEKRoNymvo
+id: chiro_zen_local_actions
+theme: chiro_zen
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 0ce20206-273c-4700-a45c-066a53e4b284
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: rlmnvK55KNrPqt8U7gqkd3rMMhF4e1mVLCRDKNM50l8
+id: chiro_zen_content
+theme: chiro_zen
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

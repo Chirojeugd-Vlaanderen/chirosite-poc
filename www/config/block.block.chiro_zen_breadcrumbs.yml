@@ -1,0 +1,22 @@
+uuid: b12d0b60-f22b-4e0f-b80a-18dd1653faf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: 9Ss1AcdfmWHDQbIATLwNBITIuM-_vplBSUfr_ULghho
+id: chiro_zen_breadcrumbs
+theme: chiro_zen
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

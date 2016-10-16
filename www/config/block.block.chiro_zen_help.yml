@@ -1,0 +1,22 @@
+uuid: d4fd20a7-36c8-4a4b-a301-0281aec46dc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: tEuI7-Z7tRI2phXWQ_yhuij9i61sn8cyGLy4vVOfBEM
+id: chiro_zen_help
+theme: chiro_zen
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

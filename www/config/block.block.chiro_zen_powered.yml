@@ -1,0 +1,22 @@
+uuid: 89b7ddc7-1bbb-42fd-9778-3d431d296686
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: eclzZ88eux4ugtk6zy48YQgoR6B1IJejyD7lXspRytk
+id: chiro_zen_powered
+theme: chiro_zen
+region: footer
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

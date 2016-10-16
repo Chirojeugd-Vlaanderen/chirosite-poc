@@ -1,0 +1,22 @@
+uuid: 5c8d37c6-cd48-434d-8a1a-e48314d0ab5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: FX9fw7JtMTCUWkjNRSJM7AL2yhoh9-s6-KqA2Il2VD8
+id: chiro_zen_local_tasks
+theme: chiro_zen
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: a1edbaff-9060-4894-9eda-a3684eee30cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - chiro_zen
+_core:
+  default_config_hash: lNKejGlD1BrDErhKmHqylwEzsX1BvlwJdhdqO7fPzL4
+id: chiro_zen_secondary_navigation
+theme: chiro_zen
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Secondary navigation'
+  provider: system
+  label_display: '0'
+  level: 2
+  depth: 0
+visibility: {  }
