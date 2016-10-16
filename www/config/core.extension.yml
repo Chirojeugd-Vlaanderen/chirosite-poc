@@ -5,7 +5,6 @@ module:
   big_pipe: 0
   block: 0
   block_content: 0
-  block_place: 0
   breakpoint: 0
   ckeditor: 0
   components: 0
@@ -35,7 +34,6 @@ module:
   menu_ui: 0
   node: 0
   options: 0
-  outside_in: 0
   page_cache: 0
   path: 0
   quickedit: 0
