@@ -1,0 +1,10 @@
+name: html1.example
+type: example
+version: 0.13.0-alpha.1
+pluginconfig:
+  sharing:
+    share: 'web:/usr/share/nginx/html'
+  services:
+    web:
+      - port: 80/tcp
+        default: true

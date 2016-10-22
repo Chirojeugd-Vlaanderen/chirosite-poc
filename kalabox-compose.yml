@@ -1,0 +1,5 @@
+web:
+  hostname: $KALABOX_APP_HOSTNAME
+  image: nginx:latest
+  ports:
+    - "80"
